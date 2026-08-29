@@ -1,0 +1,12 @@
+.env
+*.session
+*.session-journal
+data/
+logs/
+.venv/
+__pycache__/
+*.pyc
+plugins/enabled/*.py
+plugins/enabled/*.disabled
+!plugins/enabled/.keep
+.DS_Store
